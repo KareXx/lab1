@@ -15,6 +15,8 @@ namespace ConsoleApp1
 
             long factorial = CalculateFactorial(n);
             Console.WriteLine($"Факторіал числа {n} дорівнює {factorial}");
+
+            Console.ReadKey();
         }
 
         static long CalculateFactorial(int n)
